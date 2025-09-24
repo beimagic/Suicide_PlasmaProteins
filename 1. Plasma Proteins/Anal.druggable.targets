@@ -1,0 +1,3 @@
+conda run -n myenv python grep.py --genelist ./protein/suicide_cc.genes --out ./protein/suicide_cc_GREP_bg  --test ATC --background ./protein/all_proteins.genes --output-drug-name
+
+conda run -n myenv python grep.py --genelist ./protein/suicide_cc.genes --out ./protein/suicide_cc_GREP_bg_icd  --test ICD --background ./protein/all_proteins.genes --output-drug-name
